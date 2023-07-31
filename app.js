@@ -99,8 +99,7 @@ console.log({ boxDimention });
 function drawcontainer() {
     container.style.gridTemplateColumns = `repeat(${N_side}, 1fr)`
     container.style.gridTemplateRows = `repeat(${N_side}, 1fr)`
-    container.style.height = DEFAULT_SIZE + "px";
-    container.style.width = DEFAULT_SIZE + "px";
+    
 
     for (let i = 0; i < N_side * N_side; i++) {
         drawBox()
