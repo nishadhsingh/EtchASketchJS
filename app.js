@@ -116,7 +116,7 @@ function drawBox() {
     let ele = document.createElement("div");
     ele.classList.add("box");
     ele.addEventListener("pointerover", upDateColor);
-    ele.addEventListener("touchmove", upDateColor);
+    ele.addEventListener("touchstart", upDateColor);
     container.appendChild(ele);
 
 }
